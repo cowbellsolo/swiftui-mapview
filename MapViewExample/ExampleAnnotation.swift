@@ -23,7 +23,7 @@ class ExampleAnnotation: NSObject, MapViewAnnotation, Identifiable {
 
     let tintColor: UIColor? = .green
 
-    var displayPriority: MKFeatureDisplayPriority?
+    var displayPriority: MKFeatureDisplayPriority = .defaultLow
 
     init(title: String, coordinate: CLLocationCoordinate2D) {
         self.title = title

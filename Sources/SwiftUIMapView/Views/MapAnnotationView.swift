@@ -22,7 +22,7 @@ class MapAnnotationView: MKMarkerAnnotationView {
                 clusteringIdentifier = mapAnnotation.clusteringIdentifier
                 markerTintColor = mapAnnotation.tintColor
                 glyphImage = mapAnnotation.glyphImage
-                displayPriority = mapAnnotation.displayPriority ?? .defaultLow
+                displayPriority = mapAnnotation.displayPriority
             }
         }
     }

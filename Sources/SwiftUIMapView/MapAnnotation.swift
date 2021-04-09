@@ -47,7 +47,7 @@ public protocol MapViewAnnotation: MKAnnotation {
     /**
      The tint color of the annotations's view.
      */
-    var displayPriority: MKFeatureDisplayPriority? {
+    var displayPriority: MKFeatureDisplayPriority {
         get
     }
 }
